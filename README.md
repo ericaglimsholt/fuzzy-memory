@@ -4,6 +4,16 @@ This is an assignment from the course Javascript, held on Yrgo, högre yrkesutbi
 
 # How to play
 
+1 - The player chooses a card and turns it over with help of a click on their computer.
+
+2 - Now the player can see what image is hiding on the other side of the card.
+
+3 - The player now chooses an other card and turns it over with help of a click on their computer.
+
+4 - Now the player see both cards with the image facing up. If the cards match they will be saved. If the cards doesn't match the cards will turn over automatically.
+
+5 - This will go on until all the cards is matched up.  
+
 # License
 
 MIT License
