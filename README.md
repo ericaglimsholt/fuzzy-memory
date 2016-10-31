@@ -3,7 +3,9 @@
 This is an assignment from the course Javascript, held on Yrgo, högre yrkesutbildning Göteborg. The assignment is to create a memory game entirely in HTML, CSS and JavaScript.
 
 # How to play
- ![](http://i.giphy.com/XVR9lp9qUDHmU.gif)
+
+<img src="http://i.giphy.com/XVR9lp9qUDHmU.gif" alt="07 - Fuzzy Memory" width="100%" data-canonical-src="https://i.giphy.com/374pcIBVEGb6g.gif" style="max-width:100%;">
+
 
 1 - The player chooses a card and turns it over with help of a click on their computer.
 
