@@ -2,7 +2,7 @@
 
 # How to play
 
-# Licence
+# License
 
 MIT License
 
