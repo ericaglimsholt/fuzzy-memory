@@ -2,17 +2,6 @@
 
 This is an assignment from the course Javascript, held on Yrgo, högre yrkesutbildning Göteborg. The assignment is to create a memory game entirely in HTML, CSS and JavaScript.
 
-Here are the requirements for the game:
-- There should be at least 8 pairs and a maximum of 10 pairs.
-- The pairs should be randomly positioned before a new game starts.
-- The game should implement nice user interface.
-- The game should implement nice user interface.
-- The game should look, feel and work similarly in Google Chrome and Firefox.
-- The repository should have at least 10 commits and not just one big commit.
-- The repository must contain a README.md file with installation instructions and documentation.
-- The repository must contain a LICENSE file.
-- The repository must contain a .editorconfig file with your prefered settings. 
-
 # How to play
 
 # License
