@@ -12,7 +12,10 @@ This is an assignment from the course Javascript, held on Yrgo, högre yrkesutbi
 
 4 - Now the player see both cards with the image facing up. If the cards match they will be saved. If the cards doesn't match the cards will turn over automatically.
 
-5 - This will go on until all the cards is matched up.  
+5 - This will go on until all the cards is matched up.
+
+## Winning the game
+Once all the cards have been played, the player is the winner.
 
 # License
 
