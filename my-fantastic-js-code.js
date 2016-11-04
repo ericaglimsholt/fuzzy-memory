@@ -1,5 +1,10 @@
-function showCard() {
-  let card1 = Math.floor(Math.random()*8 + 1); // random visar en bild av 8
-	let img=document.getElementById("card1");
-		img.src="images/"+card1+".png";
-}
+let imagesArray = [
+"images/1.png",
+"images/2.png",
+"images/3.png",
+"images/4.png",
+"images/5.png",
+"images/6.png",
+"images/7.png",
+"images/8.png",
+];
