@@ -1,0 +1,10 @@
+body {
+	width: 100%;
+}
+
+#cards {
+	width: 600px;
+	margin:0 auto;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
