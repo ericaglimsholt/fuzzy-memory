@@ -45,3 +45,27 @@ function stopTimer()
 {
   clearInterval(s);
 }
+
+// function for the clicks that the user makes
+function clicks(index)
+{
+  if (numChoosenCards == 0)
+  {
+    //the first click is the first image
+    one = index;
+    //src to out array that contains the images
+    document.images[index].src = imgArray[index];
+    //choosen one image
+    numChoosenCards = 1;
+  }
+  else
+  {
+    numChoosenCards = 2;
+    //the second click is the second image
+    two = index;
+    //src to out array that contains the images
+    document.images[index].src = imgArray[index];
+    //start startTimer()
+    startTimer();
+  }
+}
