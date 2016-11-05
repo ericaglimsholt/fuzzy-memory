@@ -32,3 +32,10 @@ let imgArray = [
 
 //created a variabel
 let s;
+
+//function for when the first card if showed
+function startTimer()
+{
+  //500ms=0.5seconds, called after control()
+  s = setInterval(control, 500);
+}
