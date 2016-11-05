@@ -69,3 +69,29 @@ function clicks(index)
     startTimer();
   }
 }
+
+//check if the images matches
+function control()
+{
+  stopTimer();
+  // if one and two matches we have a pair
+  if(imgArray[one] == imgArray[two])
+  {
+    hit++;
+    numChoosenCards = 0;
+  }
+  else if(imgArray[one] !== imgArray[two])
+  {
+    //if one and two doesn't matches the back side shows
+    document.images[one].src = back;
+    document.images[two].src = back;
+    numChoosenCards = 0;
+  }
+
+  //if all the images is paired up
+  if(hit == imgArray.length/2)
+  {
+    //output a winning statement
+    document.getElementById("win").innerHTML = "You win!";
+  }
+}
