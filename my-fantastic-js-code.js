@@ -39,3 +39,9 @@ function startTimer()
   //500ms=0.5seconds, called after control()
   s = setInterval(control, 500);
 }
+
+//function for when both the cards have been showed
+function stopTimer()
+{
+  clearInterval(s);
+}
