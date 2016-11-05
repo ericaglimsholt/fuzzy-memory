@@ -95,3 +95,16 @@ function control()
     document.getElementById("win").innerHTML = "You win!";
   }
 }
+
+//randomize all the cards before we begin with help with fisher - yates
+function fisherYates()
+{
+  for(let flips = 0; flips < 100; flips++)
+  {
+    let i = Math.floor(Math.random() * imgArray.length);
+    let j = Math.floor(Math.random() * imgArray.length);
+    let temp = imgArray[i];
+    imgArray[i] = imgArray[j];
+    imgArray[j] = temp;
+  }
+}
