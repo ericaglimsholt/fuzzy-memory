@@ -29,3 +29,6 @@ let imgArray = [
 "images/7.png",
 "images/8.png",
 ];
+
+//created a variabel
+let s;
