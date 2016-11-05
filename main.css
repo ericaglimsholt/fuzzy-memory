@@ -2,7 +2,7 @@ body {
 	width: 100%;
 }
 
-#cards {
+#container {
 	width: 600px;
 	margin:0 auto;
 	margin-bottom: 50px;
