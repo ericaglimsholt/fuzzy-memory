@@ -46,6 +46,15 @@ function stopTimer()
   clearInterval(s);
 }
 
+
+function restart()
+{
+  window.location.reload(false);
+}
+
+
+
+
 // function for the clicks that the user makes
 function clicks(index)
 {
@@ -97,6 +106,7 @@ function control()
 }
 
 //randomize all the cards before we begin with help with fisher - yates
+// see: http://en.wikipedia.org/wiki/Fisher-Yates_shuffle
 function fisherYates()
 {
   for(let flips = 0; flips < 100; flips++)
@@ -108,3 +118,12 @@ function fisherYates()
     imgArray[j] = temp;
   }
 }
+/*
+//reset the game when clicked on "new game"-button
+function resetGame() {
+  one = 0;
+  two = 0;
+
+  document.images[index].src = imgArray['back.png'];
+}
+*/
