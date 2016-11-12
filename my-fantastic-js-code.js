@@ -5,6 +5,7 @@ let one;
 //the second card choosen
 let two;
 let hit = 0;
+let card = [];
 //if the cards doesn't match back will show
 let back = "images/back.png";
 
@@ -45,14 +46,6 @@ function stopTimer()
 {
   clearInterval(s);
 }
-
-
-function restart()
-{
-  window.location.reload(false);
-}
-
-
 
 
 // function for the clicks that the user makes
@@ -102,6 +95,8 @@ function control()
   {
     //output a winning statement
     document.getElementById("win").innerHTML = "You win!";
+
+
   }
 }
 
@@ -118,12 +113,3 @@ function fisherYates()
     imgArray[j] = temp;
   }
 }
-/*
-//reset the game when clicked on "new game"-button
-function resetGame() {
-  one = 0;
-  two = 0;
-
-  document.images[index].src = imgArray['back.png'];
-}
-*/
