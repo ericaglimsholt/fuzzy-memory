@@ -1,3 +1,4 @@
+let numMatches;
 //creating variables
 let numChoosenCards = 0;
 //the first card choosen
@@ -5,7 +6,6 @@ let one;
 //the second card choosen
 let two;
 let hit = 0;
-let card = [];
 //if the cards doesn't match back will show
 let back = "images/back.png";
 
@@ -112,4 +112,14 @@ function fisherYates()
     imgArray[i] = imgArray[j];
     imgArray[j] = temp;
   }
+}
+
+// function that resets the game
+function resetGame(){
+  fisherYates();
+  numMatches = 0;
+
+	document.images[one].src = back;
+  document.images[two].src = back;
+
 }
