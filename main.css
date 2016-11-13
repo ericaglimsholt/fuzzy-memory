@@ -8,3 +8,43 @@ body {
 	margin-bottom: 50px;
 	margin-top: 20px;
 }
+
+p {
+	font-family: 'Open Sans';
+	font-size: 12px;
+}
+
+h1, h2 {
+	font-family: 'Open Sans';
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: lighter;
+}
+
+h1 {
+	border-bottom: 1px solid black;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+h2 {
+	margin-bottom: 0px;
+}
+
+#reset {
+    background-color: #5aa1c6; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+#win {
+	font-family: 'Open Sans';
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: lighter;
+}
