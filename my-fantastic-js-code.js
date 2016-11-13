@@ -94,7 +94,7 @@ function control()
   if(hit == imgArray.length/2)
   {
     //output a winning statement
-    document.getElementById("win").innerHTML = "You win!";
+    document.getElementById("win").innerHTML = "You win! Play again?";
 
 
   }
@@ -116,10 +116,11 @@ function fisherYates()
 
 // function that resets the game
 function resetGame(){
-  fisherYates();
-  numMatches = 0;
 
-	document.images[one].src = back;
-  document.images[two].src = back;
+  imgArray.prototype.forEach.call(document.images, function(el) {
+      document.images = back;
+      fisherYates();
+  });
+
 
 }
