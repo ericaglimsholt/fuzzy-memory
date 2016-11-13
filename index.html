@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <script src="my-fantastic-js-code.js"></script>
     <link rel="stylesheet" href="main.css" type="text/css">
 
@@ -14,6 +15,18 @@
 
   <div class="container">
   <body onload="fisherYates()">
+    <h1>Fuzzy Memory</h1>
+    <h2>How to play:</h2>
+    <p>1 - The player chooses a card and turns it over with help of a click on their computer.</br>
+
+      2 - Now the player can see what image is hiding on the other side of the card.</br>
+
+      3 - The player now chooses an other card and turns it over with help of a click on their computer.</br>
+
+      4 - Now the player see both cards with the image facing up. If the cards match they will be saved. If the cards doesn't match the cards will turn over automatically.</br>
+
+      5 - This will go on until all the cards is matched.</p>
+
     <table>
       <div id="column">
         <img onclick="clicks(0)" src="images/back.png">
@@ -40,8 +53,11 @@
         <img onclick="clicks(15)" src="images/back.png">
       </div>
     </table>
-    <p id="win"></p>
-	<input type="button" id="reset"  value="Nytt spel" style="clear:left;" onclick="resetGame()">
+    <p id="win">
+
+    </p>
+
+    <input type="button" id="reset"  value="New Game" style="clear:left;" onclick="restart()">
 
   </body>
 
